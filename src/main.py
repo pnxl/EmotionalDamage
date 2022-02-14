@@ -1,8 +1,6 @@
-import json
-import random
-import webbrowser
+import json, random, webbrowser
 
-videos = json.load(open('vids.json'))
+links = json.load(open('urls.json'))
 
-url = random.sample(videos, 1)
+url = random.sample(links, 1)
 webbrowser.open(url[0])
