@@ -115,3 +115,6 @@ dmypy.json
 
 # bc mac is bad
 .DS_Store
+
+# ignore zip builds
+EmotionalDamage-*.zip
